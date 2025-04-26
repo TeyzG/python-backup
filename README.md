@@ -42,8 +42,10 @@ RECEIVER_EMAIL=receiver_email@gmail.com
 5. Chuẩn Bị File Database
 
 Tạo thư mục databases trong thư mục dự án:
-Đặt ít nhất một file .sql hoặc .sqlite3 vào thư mục databases (ví dụ: test.sql).
-Tạo file mẫu:echo. > databases\test.sql
+Đặt ít nhất một file .sql hoặc .sqlite3 vào thư mục databases (ví dụ: data.sql).
+Tạo file mẫu: .> databases\data.sql
+![image](https://github.com/user-attachments/assets/97803be3-3a9e-46de-9e10-5df1c794b02a)
+
 
 6. Chạy Chương Trình
 
