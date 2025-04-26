@@ -29,6 +29,7 @@ python-dotenv: Để đọc file .env.
 schedule: Để lập lịch backup.
 
 4. Cấu Hình File .env
+   
 ![image](https://github.com/user-attachments/assets/bfcd9a0f-6b0a-4d9c-9c59-902a7343f532)
 
 Tạo file .env trong thư mục dự án với nội dung:
@@ -65,7 +66,6 @@ Kiểm tra thư mục backups để xem file backup (có dạng tenfile_backup_N
 Kiểm tra email nhận được (thành công hoặc lỗi).
 
 ![image](https://github.com/user-attachments/assets/62d6e188-e19a-437a-88aa-8309b5d7f4b0)
-
 ![image](https://github.com/user-attachments/assets/b183de3d-cc75-41ab-881c-98c6079bdccc)
 
 
