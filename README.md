@@ -7,6 +7,7 @@ Các Bước Cài Đặt và Chạy
 Tải Python từ python.org.
 Cài đặt và đảm bảo tích chọn **Add Python to PATH** (trên Windows).
 Kiểm tra Python bằng lệnh:
+
 ![image](https://github.com/user-attachments/assets/5a3936e7-ea75-4e79-a76f-1067fab99f88)
 
 Nếu thấy phiên bản (ví dụ: Python 3.13.0), Python đã cài đúng.
@@ -25,7 +26,8 @@ schedule: Để lập lịch backup.
 
 4. Cấu Hình File .env
 
-Tạo file .env trong thư mục dự án với nội dung:SENDER_EMAIL=your_email@gmail.com
+Tạo file .env trong thư mục dự án với nội dung:
+SENDER_EMAIL=your_email@gmail.com
 APP_PASSWORD=your_app_password
 RECEIVER_EMAIL=receiver_email@gmail.com
 
@@ -42,8 +44,6 @@ Chạy file backup_database.py:python backup_database.py
 Chương trình sẽ:
 Chờ đến 00:00 hàng ngày để backup file từ databases sang backups.
 Gửi email thông báo kết quả (thành công hoặc thất bại) đến RECEIVER_EMAIL.
-
-
 rồi chạy lại. Sau khi test, khôi phục dòng gốc.
 
 7. Kiểm Tra Kết Quả
@@ -51,19 +51,10 @@ rồi chạy lại. Sau khi test, khôi phục dòng gốc.
 Kiểm tra thư mục backups để xem file backup (có dạng tenfile_backup_YYYYMMDD_HHMMSS.sql).
 Kiểm tra email nhận được (thành công hoặc lỗi).
 
-Lưu Ý
-
-Đảm bảo máy tính có kết nối internet khi chạy để gửi email.
-Nếu gặp lỗi, kiểm tra:
-File .env có đúng định dạng không.
-Mật khẩu ứng dụng Gmail có chính xác không.
-Thư mục databases có file .sql hoặc .sqlite3 không.
-
 
 Liên hệ em nếu cần hỗ trợ: luong_2251220018@dau.edu.vn
 
-Tác Giả
-
+**Tác Giả**
 Tên: Nguyễn Hoàng Lương
 MSSV: 2251220018
 Lớp: 22CT1
