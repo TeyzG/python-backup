@@ -60,13 +60,12 @@ rồi chạy lại. Sau khi test, khôi phục dòng gốc.
 
 Kiểm tra thư mục backups để xem file backup (có dạng tenfile_backup_NamThangNgay_GioPhutGiay.sql).
 
-![image](https://github.com/user-attachments/assets/99637e6d-6f6e-4794-899d-bbc2476b176c)
-
+![image](https://github.com/user-attachments/assets/740f0a83-1efb-4d0d-a84d-a79934f9b2e4)
 
 Kiểm tra email nhận được (thành công hoặc lỗi).
 
-![image](https://github.com/user-attachments/assets/62d6e188-e19a-437a-88aa-8309b5d7f4b0)
-![image](https://github.com/user-attachments/assets/b183de3d-cc75-41ab-881c-98c6079bdccc)
+![image](https://github.com/user-attachments/assets/f600b450-06e9-48da-ac30-94252868f592)
+
 
 
 Liên hệ em nếu cần hỗ trợ: luong_2251220018@dau.edu.vn
