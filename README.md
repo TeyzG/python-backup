@@ -36,6 +36,7 @@ Tạo file .env trong thư mục dự án với nội dung:
 SENDER_EMAIL=your_email@gmail.com
 APP_PASSWORD=your_app_password
 RECEIVER_EMAIL=receiver_email@gmail.com
+
 ![image](https://github.com/user-attachments/assets/9c9b1d51-8266-4adf-ae57-068d98529f1b)
 
 5. Chuẩn Bị File Database
