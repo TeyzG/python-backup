@@ -47,7 +47,7 @@ Tạo file mẫu:echo. > databases\test.sql
 
 Chạy file backup_database.py:
 
-![image](https://github.com/user-attachments/assets/55228415-5bfa-4183-9634-34e01c621f68)
+![image](https://github.com/user-attachments/assets/c66622f0-ea57-46f3-8b46-c791eab8e17f)
 
 Chương trình sẽ:
 Chờ đến 00:00 hàng ngày để backup file từ databases sang backups.
@@ -60,7 +60,7 @@ rồi chạy lại. Sau khi test, khôi phục dòng gốc.
 
 Kiểm tra thư mục backups để xem file backup (có dạng tenfile_backup_NamThangNgay_GioPhutGiay.sql).
 
-![image](https://github.com/user-attachments/assets/2be9c1f1-81ef-442a-981b-e69e02ac9611)
+![image](https://github.com/user-attachments/assets/99637e6d-6f6e-4794-899d-bbc2476b176c)
 
 
 Kiểm tra email nhận được (thành công hoặc lỗi).
