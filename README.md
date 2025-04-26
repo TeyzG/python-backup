@@ -56,7 +56,7 @@ rồi chạy lại. Sau khi test, khôi phục dòng gốc.
 
 7. Kiểm Tra Kết Quả
 
-![image](https://github.com/user-attachments/assets/ddb07d5d-8e8e-485e-8a81-9ffed8b5ba82)
+![image](https://github.com/user-attachments/assets/2ed2f45d-32e2-4ff6-bb01-692be88a5409)
 
 Kiểm tra thư mục backups để xem file backup (có dạng tenfile_backup_NamThangNgay_GioPhutGiay.sql).
 
