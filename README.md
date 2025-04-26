@@ -1,6 +1,10 @@
 Hướng Dẫn Chạy Chương Trình Backup Database
 Đây là chương trình Python để backup file database (.sql, .sqlite3) lúc 00:00 hàng ngày và gửi email thông báo kết quả (thành công hoặc thất bại). Dưới đây là hướng dẫn chi tiết để chạy chương trình.
 
+Cấu trúc dự án
+
+![image](https://github.com/user-attachments/assets/234297b3-dacf-4866-a90d-3735d3706c0a)
+
 Các Bước Cài Đặt và Chạy
 1. Cài Đặt Python
 
@@ -19,12 +23,13 @@ Vào thư mục dự án:cd <ten-thu-muc>
 
 3. Cài Đặt Thư Viện
 
-Trong thư mục dự án, chạy lệnh để cài các thư viện cần thiết:pip install -r requirements.txt
+Trong thư mục dự án
 Các thư viện bao gồm:
 python-dotenv: Để đọc file .env.
 schedule: Để lập lịch backup.
 
 4. Cấu Hình File .env
+![image](https://github.com/user-attachments/assets/bfcd9a0f-6b0a-4d9c-9c59-902a7343f532)
 
 Tạo file .env trong thư mục dự án với nội dung:
 SENDER_EMAIL=your_email@gmail.com
@@ -33,13 +38,15 @@ RECEIVER_EMAIL=receiver_email@gmail.com
 
 5. Chuẩn Bị File Database
 
-Tạo thư mục databases trong thư mục dự án:mkdir databases
+Tạo thư mục databases trong thư mục dự án:
 Đặt ít nhất một file .sql hoặc .sqlite3 vào thư mục databases (ví dụ: test.sql).
 Tạo file mẫu:echo. > databases\test.sql
 
 6. Chạy Chương Trình
 
-Chạy file backup_database.py:python backup_database.py
+Chạy file backup_database.py:
+
+![image](https://github.com/user-attachments/assets/55228415-5bfa-4183-9634-34e01c621f68)
 
 Chương trình sẽ:
 Chờ đến 00:00 hàng ngày để backup file từ databases sang backups.
@@ -48,8 +55,18 @@ rồi chạy lại. Sau khi test, khôi phục dòng gốc.
 
 7. Kiểm Tra Kết Quả
 
-Kiểm tra thư mục backups để xem file backup (có dạng tenfile_backup_YYYYMMDD_HHMMSS.sql).
+![image](https://github.com/user-attachments/assets/ddb07d5d-8e8e-485e-8a81-9ffed8b5ba82)
+
+Kiểm tra thư mục backups để xem file backup (có dạng tenfile_backup_NamThangNgay_GioPhutGiay.sql).
+
+![image](https://github.com/user-attachments/assets/2be9c1f1-81ef-442a-981b-e69e02ac9611)
+
+
 Kiểm tra email nhận được (thành công hoặc lỗi).
+
+![image](https://github.com/user-attachments/assets/62d6e188-e19a-437a-88aa-8309b5d7f4b0)
+
+![image](https://github.com/user-attachments/assets/b183de3d-cc75-41ab-881c-98c6079bdccc)
 
 
 Liên hệ em nếu cần hỗ trợ: luong_2251220018@dau.edu.vn
